@@ -1,0 +1,29 @@
+.hero-landing{
+    background-image: url("https://images.pexels.com/photos/2909096/pexels-photo-2909096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-title{
+    padding-top: 200px;
+    font-size: 8rem;
+}
+
+.bg-light{
+    width: 100%;
+}
+
+.music-content{
+    padding: 20px;
+}
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }

@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {Route, BrowserRouter as Router} from 'react-router-dom';
+
+import Landing from "./Landing";
+import Navbar from "./Navbar";
+import Music from "./Music";
+import Tour from "./Tour";
+import About from "./About";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Navbar/>
+      <Route exact path="/" component={Landing}/>
+      <Route path="/music" component={Music} />
+      <Route path="/tour" component={Tour} />
+      <Route path="/About" component={About} />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
