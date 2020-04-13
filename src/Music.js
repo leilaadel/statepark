@@ -15,9 +15,7 @@ class Music extends Component {
             </div>
             <div className="row music-content">
               <div className="col-sm-6">
-                <h1>please listen to our music</h1>
-                <h2>We are very desparate</h2>
-                <h3>Please</h3>
+                <p>Check out our music</p>
               </div>
               <div className="col-sm-6 soundcloud-api">
                   <iframe src="https://open.spotify.com/embed/album/6XzZ5pg9buAKNYg293KOQ8" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

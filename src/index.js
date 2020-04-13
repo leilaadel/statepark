@@ -9,6 +9,7 @@ import Navbar from "./Navbar";
 import Music from "./Music";
 import Tour from "./Tour";
 import About from "./About";
+import Login from './Login';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,7 +18,8 @@ ReactDOM.render(
       <Route exact path="/" component={Landing}/>
       <Route path="/music" component={Music} />
       <Route path="/tour" component={Tour} />
-      <Route path="/About" component={About} />
+      <Route path="/about" component={About} />
+      <Route path="/login" component={Login} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
