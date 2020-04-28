@@ -8,8 +8,11 @@ import Landing from "./Landing";
 import Navbar from "./Navbar";
 import Music from "./Music";
 import Tour from "./Tour";
-import About from "./About";
+import News from "./News";
 import Login from './Login';
+import StudioSession from "./StudioSession";
+import TourDates from "./TourDates";
+import NewDrummer from "./NewDrummer";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,8 +21,11 @@ ReactDOM.render(
       <Route exact path="/" component={Landing}/>
       <Route path="/music" component={Music} />
       <Route path="/tour" component={Tour} />
-      <Route path="/about" component={About} />
+      <Route path="/news" component={News} />
       <Route path="/login" component={Login} />
+      <Route exact path="/news/studiosession" component={StudioSession} />
+      <Route exact path="/news/newtourdates" component={TourDates} />
+      <Route exact path="/news/newdrummer" component={NewDrummer} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

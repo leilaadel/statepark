@@ -27,3 +27,17 @@
     height: 400px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
    }
+.landing-content{
+    max-width: 1200px;
+    margin-left: 15%;
+}
+.landing-news{
+    padding-left: 5em;
+    margin-top: 20px;
+    display: inline-flex;
+}
+.landing-video-content{
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+}

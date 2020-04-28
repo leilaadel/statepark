@@ -47,7 +47,7 @@ class Navbar extends Component {
                         <a class="nav-link" href="/tour">Tour Info</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="/news">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/login">Join our fanclub</a>
